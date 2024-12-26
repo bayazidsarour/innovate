@@ -2,6 +2,30 @@
   max-width: 1170px;
 }
 
+a {
+  color: #EFF4FA;
+  text-decoration: none;
+  font-family: "Open Sans", serif;
+}
+
 header nav {
   background-color: #6b62c5;
+}
+header nav ul {
+  gap: 42px;
+}
+header nav ul li a {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+nav button {
+  background: #1BBF00;
+  border: none;
+  color: #EFF4FA;
+  font-family: "Open Sans", serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 28px;
+  border-radius: 100px;
 }/*# sourceMappingURL=style.css.map */

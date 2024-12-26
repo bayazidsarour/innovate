@@ -4,3 +4,22 @@
 }
 
 $primary:#6b62c5;
+a
+{
+    color: #EFF4FA;
+    text-decoration: none;
+    font-family:  "Open Sans", serif;
+}
+
+@mixin button($button: #1BBF00)
+{
+    background: $button;
+    border: none;
+    color: #EFF4FA;
+    font-family:  "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 14px 28px;
+    border-radius: 100px;
+
+}

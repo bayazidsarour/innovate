@@ -3,5 +3,28 @@ header
     nav{
         background-color: $primary;
 
+        ul
+        {
+            gap: 42px;
+            li 
+            {
+                a 
+                {
+                    font-weight: 600;
+                    font-size: 16px;
+                }
+            }
+        }
+
     }
+}
+
+nav
+{
+    
+        button 
+        {
+            @include button();
+        }
+    
 }
