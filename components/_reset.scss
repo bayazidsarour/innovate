@@ -3,7 +3,8 @@
     max-width: 1170px;
 }
 
-$primary:#6b62c5;
+$primary:rgba(106, 98, 197, 0.5);
+$pfont: "Open Sans", serif;
 a
 {
     color: #EFF4FA;
@@ -22,5 +23,7 @@ a
     padding: 14px 28px;
     border-radius: 100px;
     line-height: 200%;
+    text-transform: capitalize;
+    border: 2px solid transparent;
 
 }
