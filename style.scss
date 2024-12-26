@@ -1,37 +1,8 @@
-// $primerycolor: blue;
-// $textcolor: white;
-// $bgcolor: rgb(184, 189, 33);
 
-// body
-// {
-//     background-color:$primerycolor;
-    
-// }
-// .main
-// {
-//     text-align: center;
-//     h2{
-//         color:red ;
-//     }
-//     p{
-//         color: aqua;
-//         span{
-//             color: rgb(246, 2, 246);
-//         }
-//     }
-// }
 
-// @mixin button($bgcolor)
-// {
-//     background-color: $bgcolor;
-//     color: white;
-//     padding: 20px;
-//     border: none;
-// }
-// button
-// {
-//     @include button($bgcolor);
-// }
+@import "./components/reset";
+@import "./components/navbar";
+
 
 
 

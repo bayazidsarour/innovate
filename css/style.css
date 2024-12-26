@@ -1,1 +1,7 @@
-/*# sourceMappingURL=style.css.map */
+.container {
+  max-width: 1170px;
+}
+
+header nav {
+  background-color: #6b62c5;
+}/*# sourceMappingURL=style.css.map */
