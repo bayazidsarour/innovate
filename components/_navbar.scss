@@ -2,6 +2,7 @@ header
 {
     nav{
         background-color: $primary;
+        padding: 18px 0 !important;
 
         ul
         {
@@ -12,7 +13,13 @@ header
                 {
                     font-weight: 600;
                     font-size: 16px;
+                    &:hover
+                    {
+                        color: #29ff08;
+                        transition: 0.4s;
+                    }
                 }
+
             }
         }
 
