@@ -107,8 +107,26 @@ nav button {
 #counter .counterr8img {
   position: absolute;
   right: 0;
-  width: 10%;
+  width: 20%;
+}
+#counter .counter {
+  padding: 286px 0;
 }
 #counter .counter .counters {
   border-right: 2px solid #4F585F;
+}
+#counter .counter .counters h2 {
+  font-weight: 800;
+  font-family: "Open Sans", serif;
+  color: #1BBF00;
+  font-size: 64px;
+  line-height: 68px;
+}
+#counter .counter .counters h6 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+#counter .counter .counters:nth-of-type(4) {
+  border: none;
 }/*# sourceMappingURL=style.css.map */

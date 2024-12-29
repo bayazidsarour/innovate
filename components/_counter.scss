@@ -5,15 +5,34 @@
    {
     position: absolute;
     right: 0;
-   width: 10%;
+   width: 20%;
    }
 
 
    .counter 
    {
+    padding: 286px 0;
     .counters
     {
         border-right: 2px solid #4F585F;
+        h2
+        {
+font-weight: 800;
+font-family: $pfont;
+color: $pcolor;
+font-size: 64px;
+line-height: 68px;
+        }
+        h6 
+        {
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+        }
+    }
+    .counters:nth-of-type(4)
+    {
+        border: none;
     }
    }
 }
