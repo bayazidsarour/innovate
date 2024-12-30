@@ -348,4 +348,55 @@ nav button {
   font-weight: 400;
   line-height: 30px;
   color: #726E9E;
+}
+
+.realimpact_left_content img {
+  width: 63px;
+  height: 45px;
+}
+
+.realimpact_left_content1 {
+  margin-bottom: 40px;
+}
+
+.realimpact_left_content1_heading {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  font-family: "Open Sans", serif;
+  color: #141135;
+  margin-bottom: 20px;
+}
+
+.realimpact_left_content1_p {
+  font-family: paprika;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #726E9E;
+}
+
+.realimpact_left_content2 {
+  margin-bottom: 40px;
+}
+
+.realimpact_left_content2_heading {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  font-family: "Open Sans", serif;
+  color: #141135;
+  margin-bottom: 20px;
+}
+
+.realimpact_left_content2_p {
+  font-family: paprika;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #726E9E;
+}
+
+.realimpact_right_content img {
+  margin-top: -45px;
 }/*# sourceMappingURL=style.css.map */
