@@ -129,4 +129,18 @@ nav button {
 }
 #counter .counter .counters:nth-of-type(4) {
   border: none;
+}
+
+.whychoose_left_roundicon .round1 {
+  width: 20px;
+  height: 20px;
+  background-color: #1BBF00;
+  border-radius: 50%;
+}
+.whychoose_left_roundicon .round2 {
+  width: 20px;
+  height: 20px;
+  background-color: #CBC8F0;
+  border-radius: 50%;
+  margin-left: -10px;
 }/*# sourceMappingURL=style.css.map */
