@@ -399,4 +399,14 @@ nav button {
 
 .realimpact_right_content img {
   margin-top: -45px;
+}
+
+#realimpact {
+  position: relative;
+}
+#realimpact .realimpactbgimg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 15%;
 }/*# sourceMappingURL=style.css.map */
