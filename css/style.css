@@ -213,4 +213,14 @@ nav button {
   margin: 23px 0px;
   padding: 10px 0;
   width: 100%;
+}
+
+.card__image {
+  width: 64px;
+  height: 64px;
+  margin: auto;
+}
+
+.card {
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
