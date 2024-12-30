@@ -142,6 +142,8 @@ nav button {
 .whychoose__wrapper {
   padding-top: 100px;
   padding-bottom: 91px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .whychoose_left_roundicon .round1 {
@@ -201,7 +203,7 @@ nav button {
 
 .whychoose_left_content:hover {
   width: 568px;
-  padding: 32px 0;
+  padding: 22px 0;
   border-radius: 12px;
   transition: 0.4s;
   box-shadow: -1px 1px 17px -3px rgba(0, 0, 0, 0.82);
@@ -209,4 +211,5 @@ nav button {
 
 .whychoose_left_content {
   transition: 0.4s;
+  margin: 22px 0px;
 }/*# sourceMappingURL=style.css.map */
