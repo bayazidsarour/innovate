@@ -2,10 +2,14 @@
 {
     width: 64px;
     height: 64px;
-    margin: auto;
+    margin: 0 auto;
+    margin-bottom: 32px;
 }
 .card 
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     transition: 0.4s;
     border-radius: 10px;
     width: 370px;
@@ -23,14 +27,31 @@
         font-size: 18px;
         font-weight: 400;
         line-height: 30px;
+        margin-top: 16px;
     }
     a 
     {
+        position: relative;
+        bottom: 0;
         color: black;
         font-size: 18px;
         font-weight: 700;
         font-family: $pfont;
         line-height: 24px;
+        z-index: 1;
+        &::after
+        {
+            content: " ";
+            width: 25px;
+            height: 35px;
+            background-color: #1BBF00;
+            position: absolute;
+            right: 75px;
+            top: -5px;
+            border-radius: 0 50px 50px 0;
+            z-index: -1;
+
+        }
     }
     
     &:hover
@@ -47,7 +68,14 @@
     }
     a 
     {
+        
         color: #F4F4F5;
+
+
+    }
+    a::after
+    {
+        background-color: rgba(255, 255, 255, 0.381);
     }
     
 }
@@ -77,4 +105,8 @@
         @include button ();
         margin-top: 56px;
     }
+}
+.secondcolumn
+{
+    margin-top: 30px;
 }

@@ -218,10 +218,14 @@ nav button {
 .card__image {
   width: 64px;
   height: 64px;
-  margin: auto;
+  margin: 0 auto;
+  margin-bottom: 32px;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   transition: 0.4s;
   border-radius: 10px;
   width: 370px;
@@ -238,13 +242,28 @@ nav button {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  margin-top: 16px;
 }
 .card a {
+  position: relative;
+  bottom: 0;
   color: black;
   font-size: 18px;
   font-weight: 700;
   font-family: "Open Sans", serif;
   line-height: 24px;
+  z-index: 1;
+}
+.card a::after {
+  content: " ";
+  width: 25px;
+  height: 35px;
+  background-color: #1BBF00;
+  position: absolute;
+  right: 75px;
+  top: -5px;
+  border-radius: 0 50px 50px 0;
+  z-index: -1;
 }
 .card:hover {
   background-color: #6B62C5;
@@ -257,6 +276,9 @@ nav button {
 }
 .card:hover a {
   color: #F4F4F5;
+}
+.card:hover a::after {
+  background-color: rgba(255, 255, 255, 0.381);
 }
 
 .card1 {
@@ -287,4 +309,8 @@ nav button {
   text-transform: capitalize;
   border: 2px solid transparent;
   margin-top: 56px;
+}
+
+.secondcolumn {
+  margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
