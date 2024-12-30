@@ -319,6 +319,10 @@ nav button {
   padding: 100px 0;
 }
 
+.realimpact {
+  padding: 91px 0 100px 0;
+}
+
 .realimpact__pera {
   margin: 0 auto;
 }
@@ -328,4 +332,16 @@ nav button {
   font-weight: 700;
   line-height: auto;
   font-family: "Open Sans", serif;
+  color: #141135;
+  margin-bottom: 23px;
+}
+
+.realimpact_p_p {
+  margin: 0 auto;
+  width: 684px;
+  font-size: 18px;
+  font-family: paprika;
+  font-weight: 400;
+  line-height: 30px;
+  color: #726E9E;
 }/*# sourceMappingURL=style.css.map */
