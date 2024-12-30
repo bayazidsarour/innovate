@@ -1,11 +1,17 @@
 #whychoose
 {
+    position: relative;
     img 
     {
+        position: absolute;
         width: 20%;
     }
 }
-
+.whychoose__wrapper
+{
+    padding-top: 100px;
+    padding-bottom: 91px;
+}
 
 
 .whychoose_left_roundicon
@@ -70,9 +76,15 @@
 .whychoose_left_content:hover
 {
 width: 568px;
-padding: 42px 0;
+padding: 32px 0;
 border-radius: 12px;
-background-color: rgb(209, 29, 29);
+
 transition: 0.4s;
-height: 141px;
+box-shadow: -1px 1px 17px -3px rgba(0,0,0,0.82);
+}
+
+.whychoose_left_content
+{
+
+transition: 0.4s;
 }
