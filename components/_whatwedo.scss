@@ -6,7 +6,75 @@
 }
 .card 
 {
+    transition: 0.4s;
     border-radius: 10px;
     width: 370px;
     padding: 48px 51px 49px 52px;
+    h2 
+    {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        font-family: $pfont;
+    }
+    p 
+    {
+        font-family: paprika;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    a 
+    {
+        color: black;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: $pfont;
+        line-height: 24px;
+    }
+    
+    &:hover
+    {
+    background-color: #6B62C5;
+    h2{
+        color: #fafafe;
+
+    }
+    p{
+        color: #E6E5F3;
+    
+       
+    }
+    a 
+    {
+        color: #F4F4F5;
+    }
+    
+}
+
+
+}
+
+.card1
+{
+    border-radius: 10px;
+    width: 370px;
+    h2 
+    {
+        font-family: $pfont;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: auto;
+    }
+    p 
+    {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    button 
+    {
+        @include button ();
+        margin-top: 56px;
+    }
 }
