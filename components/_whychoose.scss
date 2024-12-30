@@ -1,3 +1,13 @@
+#whychoose
+{
+    img 
+    {
+        width: 20%;
+    }
+}
+
+
+
 .whychoose_left_roundicon
 
 {
@@ -28,4 +38,41 @@
     line-height: 30px;
     font-weight: 400;
     color: #726E9E;
+}
+
+
+.whychoose_right
+{
+    h2{
+        color:#141135;
+        font-family:$pfont;
+        font-weight: 700;
+        font-size: 48px;
+    }
+    h6 
+    {
+        font-family: paprika;
+        color: #726E9E;
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 9px;
+        width: 393px;
+    }
+    button
+    {
+        @include button ();
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        margin-top: 41px;
+    }
+}
+.whychoose_left_content:hover
+{
+width: 568px;
+padding: 42px 0;
+border-radius: 12px;
+background-color: rgb(209, 29, 29);
+transition: 0.4s;
+height: 141px;
 }
