@@ -132,15 +132,24 @@ nav button {
 }
 
 .whychoose_left_roundicon .round1 {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   background-color: #1BBF00;
   border-radius: 50%;
 }
 .whychoose_left_roundicon .round2 {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   background-color: #CBC8F0;
   border-radius: 50%;
   margin-left: -10px;
+}
+
+.whychoose_left_content_text {
+  width: 319px;
+  font-family: paprika;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #726E9E;
 }/*# sourceMappingURL=style.css.map */
