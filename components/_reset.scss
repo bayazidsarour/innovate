@@ -12,6 +12,10 @@ a
     text-decoration: none;
     font-family:  "Open Sans", serif;
 }
+li
+{
+    list-style: none;
+}
 
 @mixin button($button: #1BBF00)
 {
