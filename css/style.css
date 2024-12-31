@@ -483,4 +483,70 @@ nav button {
   color: #726E9E;
   text-align: center;
   width: 242px;
+}
+
+#whatpeoplethink {
+  background-color: #F8F8FF;
+}
+
+.whatpeoplethink {
+  padding: 100px 0;
+}
+.whatpeoplethink .whatpeoplethink__content {
+  width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+.whatpeoplethink .whatpeoplethink__content .whatpeoplethink__profilepic {
+  width: 147px;
+  height: 147px;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: -75px;
+}
+.whatpeoplethink .whatpeoplethink__content .whatpeoplethink__detailsbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.whatpeoplethink .whatpeoplethink__content .whatpeoplethink__detailsbox .ratings {
+  width: 108px;
+  margin-top: 45.48px;
+}
+.whatpeoplethink .whatpeoplethink__content .whatpeoplethink__detailsbox .whatpeoplethink__details_pera {
+  font-size: 24px;
+  line-height: 40px;
+  font-family: paprika;
+  font-weight: 400;
+  color: #726E9E;
+  width: 801px;
+  text-align: center;
+  margin-top: 33.21px;
+  margin-bottom: 48px;
+}
+.whatpeoplethink .whatpeoplethink__content .whatpeoplethink__detailsbox .whatpeoplethink__profile_name {
+  font-family: "Open Sans", serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #221A2C;
+}
+.whatpeoplethink .whatpeoplethink__content .whatpeoplethink__detailsbox .whatpeoplethink__position {
+  font-family: paprika;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #726E9E;
+}
+
+.whatpeoplethink_header {
+  font-family: "Open Sans", serif;
+  margin-bottom: 152px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: auto;
 }/*# sourceMappingURL=style.css.map */
