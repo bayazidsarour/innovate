@@ -648,10 +648,32 @@ nav button {
 
 #footer {
   background-color: #48409C;
+  color: #FEFEFE;
 }
 
 .footercontent {
   padding-top: 140px;
   padding-bottom: 80px;
   display: flex;
+}
+
+.footer_logo {
+  width: 135px;
+  margin-bottom: 44px;
+}
+
+.footer_pera {
+  font-family: nunito;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  opacity: 90%;
+}
+
+.footerright_content h2 {
+  font-family: "Open Sans", serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0%;
 }/*# sourceMappingURL=style.css.map */
