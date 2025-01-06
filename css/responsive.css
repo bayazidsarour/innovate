@@ -1,0 +1,82 @@
+@media (min-width:320px) and (max-width: 767px)
+{
+    .whatpeoplethink .whatpeoplethink__content {
+        width: auto;
+
+    }
+    .whatpeoplethink .whatpeoplethink__content .whatpeoplethink__detailsbox .whatpeoplethink__details_pera {
+
+        width: auto;
+
+    }
+    .realimpact_right_content img {
+        margin-top: -45px;
+        width: 100%;
+    }
+
+    .realimpact_p_p {
+
+        width: auto;
+
+    }
+
+    .whychoose_left_content_text {
+        width: auto;
+
+    }
+    .card1 {
+
+        width: auto;
+    }
+    #banner .overlay .banner h1 {
+        font-size: 40px;
+       font-weight: 600;
+
+    }
+    .youalsolike .youalsolike__content .youalsolike__left_content .youalsolike__left_image {
+        width: 100%;
+        height: fit-content;
+    }
+    .whychoose_right h6 {
+
+        width: 100%;
+    }
+    .crightplan_card .crightplan_card_img {
+        width: 100%;
+    }
+    .copyright ul {
+        gap: 50px;
+    }
+    .card {
+
+        width: auto;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media (min-width: 768px) and (max-width: 991px) 
+{
+
+}
