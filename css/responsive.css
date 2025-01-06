@@ -106,7 +106,28 @@
         text-align: center;
     }
 
+    .navbar-collapse {
+        text-align: center;
+    }
+    .whychoose__wrapper {
+        margin-top: 0;
+    }
+    .crightplan_card {
+        width: 90%;
+        margin: 0 auto;
+    }
 
+    .crightplan_card .crightplan_card_pera {
+
+        width: auto;
+    }
+    .footerright_content
+    {
+        text-align: center;
+    }
+    .copyright {
+        padding-bottom: 0px;
+    }
 
 
 
