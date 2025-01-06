@@ -109,8 +109,12 @@
     .navbar-collapse {
         text-align: center;
     }
+
     .whychoose__wrapper {
-        margin-top: 0;
+        padding-top: 100px;
+        padding-bottom: 25px;
+        margin-bottom: 10px;
+        margin-top: 0px;
     }
     .crightplan_card {
         width: 90%;
@@ -127,6 +131,18 @@
     }
     .copyright {
         padding-bottom: 0px;
+    }
+    .realimpact_left_content1 {
+ 
+        justify-content: center;
+    }
+
+    .realimpact_left_content2 {
+ 
+        justify-content: center;
+    }
+    .whatwedo {
+        padding: 0px 0;
     }
 
 
