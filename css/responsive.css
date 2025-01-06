@@ -49,8 +49,23 @@
     }
     .card {
 
-        width: auto;
+        margin: 0 auto;
 
+    }
+    .crightplan_card {
+
+        width: 100%;
+
+    }
+    .firstcolumn
+    {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .secondcolumn 
+    {
+        flex-direction: column;
+        gap: 25px;
     }
 
 
